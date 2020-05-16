@@ -1,0 +1,469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;School Management&rdquo; Documentation by &ldquo;Sanchit Rathi&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;School Management&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 10/01/2019<br>
+					By: Sanchit Rathi<br>
+                    WhatsApp: 9259065698<br>
+					Email: <a href="mailto:sanchitrathi@rediff.com">sanchitrathi@rediff.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email or WhatsApp on 9259065698. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#app_source_files">App Source files</a></li>
+			<li><a href="#how_to_open_app_in_android_studio">How to open app in android studio</a></li>
+			<li><a href="#rename_package">Rename Package</a></li>
+			<li><a href="#admin_panel_config">Admin panel config</a></li>
+			
+			<li><a href="#integrating_fcm">Integrating FCM</a>
+			<li><a href="#special_thanks">Special Thanks</a>  
+			
+		</ol>
+		
+		<hr>
+		<h3 id="htmlStructure"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+		<div>
+	Education App offers parents a mobile app, which provides them all the information at their fingertips.&nbsp;</div>
+<div>
+	At the school&#39;s end - Education App offers a simple intuitive web interface to manage the communication so school is always in control of what parent&#39;s receive on the app.</div>
+<div>
+	Challenge in School Parent communication Today, parents expect to be involved and informed real-time by schools.&nbsp;</div>
+<div>
+	Schools too want to communicate effectively and timely with parents for whom they use multiple medium - emails, text messages,&nbsp;</div>
+<div>
+	print media (newsletters) and school diary.&nbsp;</div>
+<div>
+	This approach is time consuming and chaotic for both, the school and the parents There is definitely need of a better solution that brings entire communications under one umbrella.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Features :</div>
+<div>
+	- Manage Student Details</div>
+<div>
+	- Manage Student Attendance</div>
+<div>
+	- Manage Exams and Results</div>
+<div>
+	- Manage Student Reports</div>
+<div>
+	- Growth chart of student</div>
+<div>
+	- Events and news</div>
+<div>
+	- Holidays</div>
+<div>
+	- Top students information</div>
+<div>
+	- Teacher information</div>
+<div>
+	- Communicate Student/Parent with School by message</div>
+<div>
+	- Fees&nbsp;<br>
+	- Time Table<br>
+	- Quiz (Quiz Subject, Quiz Question)<br>
+	- Notification&nbsp;<br><br></div>
+
+		<hr>
+
+		<h3 id="app_source_files"><strong>B) App Source files</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">We are providing you app related source that are used to develope&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Education&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">&nbsp;app. When you donwload source from codecanyon you will get following folders in zip file.</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Education App 2.zip contains</span></p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Education App.zip</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Document</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		AdminPanel</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		readme.txt</li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Education &nbsp;App &nbsp;[Folder]</p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Education&nbsp;&nbsp;App &nbsp;[Complete Android App]</li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Document&nbsp;</p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Help file</li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Admin Panel&nbsp;</p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Source &nbsp;[ PHP server code that you need to upload at your server ]</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Education.sql [ Import Sql file to your database ]</li>
+</ul>
+
+		<hr>
+		
+		<h3 id="how_to_open_app_in_android_studio"><strong>C) How to open app in android studio</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+	<strong>&nbsp;open android studio&nbsp;</strong></p>
+<p>
+	go to File-&gt;Open and select app codecanyon download file.<strong> see belowe&nbsp;</strong></p>
+<p>
+	<strong><img alt="open" src="assets/images/image_22.png" style="width: 100%;"></strong></p>
+<p>
+	<b>change your url to host your admin panel.&nbsp;</b></p>
+<p>
+	go to app-&gt;src-&gt;main-&gt;java-&gt;Config-&gt;Constvalue</p>
+<p>
+	<b><img alt="constvalue" src="assets/images/image_25.png" style="width: 100%;"></b></p>
+		<hr>
+		
+		<h3 id="rename_package"><strong>D) Rename Package</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Education&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">-&gt;app-&gt;src-&gt;AndroidMainfest.xml&nbsp; ans rename your package name</span></p>
+<p>
+	<img alt="manufeast" src="assets/images/image_24.png" style="width: 100%;"></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Education&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">-&gt;app-&gt;build.gradle&nbsp; and rename your package name</span></p>
+<p>
+	<img alt="build" src="assets/images/image_21.png" style="width: 100%;"></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Education&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">-&gt;app-&gt;main-&gt;java-&gt;</span><span style="color: rgb(56, 56, 56); font-family: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; vertical-align: baseline;">com.e</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">ducation&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">and rename your package name</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">Right click on &nbsp;</span><span style="font-family: inherit; color: rgb(56, 56, 56); font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">com</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">.</span><span style="font-family: inherit; color: rgb(56, 56, 56); font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">e</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">ducation&nbsp;-&gt;Refactor-&gt;rename&nbsp; your package name</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;"><img alt="com" src="assets/images/image_20.png" style="width: 100%;"></span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Change your App Display Name</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">e</span>ducation&nbsp;-&gt;app-&gt;main-&gt;res-&gt;values-&gt;strings.xml</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<img alt="appname" src="assets/images/image_23.png" style="width: 100%;"></p>
+        
+        <hr>
+		
+		<h3 id="admin_panel_config"><strong>E) Admin panel config</strong> - <a href="#toc">top</a></h3>
+		
+		<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Upload source of &nbsp;&quot;AdminPanel&quot; folder to your server.&nbsp;</p>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+		Control Panel :</p>
+	<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+		IF you are using any CPANEL licence then it it easy to upload code to your server. by just login to your cpanel then open file manager&nbsp;</p>
+	<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+		in file manage Open &quot;public_html&quot; &nbsp;or &quot;www&quot; &nbsp;folder and and upload &nbsp;content of &quot;source&quot; folder there.&nbsp;</p>
+	<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+		FTP Upload :</p>
+	<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+		Connect your ftp account with filezilla or other ftp connection tools. and same as in root directory navigate to&nbsp;&quot;public_html&quot; &nbsp;or &quot;www&quot; &nbsp;folder and and upload &nbsp;content of &quot;<strong>source</strong>&quot; folder there.&nbsp;</p>
+</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	Step 1 :&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	For upload this source to your site you can use FTP details : login with your FTP and choose folder &quot;Server Site&quot; and upload it to your site</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		&nbsp;</div>
+	<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			Step 2 :</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">Navigate to your cPanel-&gt;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; vertical-align: baseline;">PhpMyAdmin</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">&nbsp;tool and open the newly&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; vertical-align: baseline;">create database</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">. It is empty and there are no tables. Enter the table name and the number of fields. Click on the Go button to&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; vertical-align: baseline;">create</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">&nbsp;the table.</span></p>
+			<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+				&nbsp;</p>
+			<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+				Import Default(<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">education.sql</span>) Database by just clicking&nbsp; &ldquo;Import&rdquo; and choose &ldquo;database.sql&rdquo; from package folder. Anf click on Go button to imprort it now your databse it ready. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+			<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+				&nbsp;</p>
+			<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+				<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">&nbsp;(</span><span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">Note :&nbsp;</span><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">If you are working on live website then Create User for that database and assig his role with databse.)</span></p>
+		</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			Change database configuration with your site.&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			Edit file at &nbsp;&quot;<strong>education/config/database.php</strong>&quot;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			here change your database name, database user name amd password</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			<img alt="database connection" src="assets/images/image_19.png" style="width: 100%;"></div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			Next step is change your site url (andmin panel open your url)</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			Edit file at &nbsp;&quot;<strong>education/config/config.php</strong>&quot;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			<img alt="config" src="assets/images/image_26.png" style="width: 100%;"></div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			&nbsp;</div>
+		<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">Now Run&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">http://websitename.com/education/</span><span style="font-weight: bold; font-family: inherit; font-style: inherit;">index.php/admin</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">&nbsp;( example : http://iclauncher.com/education/index.php/admin )</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<strong>Login Admin</strong></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<strong>Url :&nbsp;</strong><span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">http://websitename.com/education/</span><span style="font-family: inherit; font-style: inherit; font-weight: bold;">index.php/admin</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">UserName :&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">admin</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Password :&nbsp;</span><span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">terminal</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="admin login" src="assets/images/image_10.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				Then open Admin dashbord. Here display &nbsp;list of school ..</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="dashbord andmin" src="assets/images/image_3.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				Now click on User Management.</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				1. Add User ( add new school here)</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="add school" src="assets/images/image_2.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				2. List User -&gt; admin can edit and active / deactive perticular user</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="admin list" src="assets/images/image_1.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				&nbsp;</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<strong><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Login School&nbsp;</span></strong></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<strong style="font-family: inherit; font-style: inherit;">Url :&nbsp;</strong><span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">http://websitename.com/education/</span><span style="font-family: inherit; font-style: inherit; font-weight: bold;">index.php/admin</span></p>
+			<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline;">UserName : </span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline;"><b>school</b></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				Password :&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">terminal</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;"><img alt="school login" src="assets/images/image_10.png" style="width: 100%;"></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Dashbord</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;"><img alt="dash bord" src="assets/images/image_18.png" style="width: 100%;"></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				Information left side Menu.</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				1. Update School Profile</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="school profile" src="assets/images/image_17.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				2. Teacher Management</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="teacher" src="assets/images/image_8.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				3. Standard Management</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="standard" src="assets/images/image_7.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				4. Student Management</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="student" src="assets/images/image_13.png" style="width: 100%;"></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				5. Attendence Management</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				&nbsp; &nbsp; &nbsp;In Attendence management user can manage two type&nbsp;</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				&nbsp; &nbsp; &nbsp;1.&nbsp;<span style="font-family: inherit; font-style: inherit;">Manualy Add Attendence.</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit;">&nbsp; &nbsp;<img alt="manualyattendence" src="assets/images/image_12.png" style="width: 100%;"></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit;">&nbsp; &nbsp; 2. Upload .Xlsx .xls file. show file forment belowe image</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit;">&nbsp;&nbsp;<img alt="attendencesheet" src="assets/images/image_11.png" style="width: 100%;"></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit;">6. Exam management and exam result</span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<span style="font-family: inherit; font-style: inherit;"><img alt="exam" src="assets/images/image_4.png" style="width: 100%;"></span></p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				Add result</p>
+			<p style="font-weight: inherit; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; line-height: 1.5em;">
+				<img alt="examresult" src="assets/images/image_6.png" style="width: 100%;"></p>
+		</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			7. School Event Management&nbsp;</div>
+		<div style="font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+			<img alt="event" src="assets/images/image_9.png" style="width: 100%;"></div>
+	</div>
+</div>
+<p>
+	8. Holiday</p>
+<p>
+	<img alt="holiday " src="assets/images/image_14.png" style="width: 100%;"></p>
+<p>
+	9. Add Top ten student</p>
+<p>
+	<img alt="top_ten_student" src="assets/images/image_5.png" style="width: 100%;"></p>
+<p>
+	10. Notice bord&nbsp;</p>
+<p>
+	<img alt="notice bord" src="assets/images/image_15.png" style="width: 100%;"></p>
+<p>
+	11.&nbsp;enquiry message</p>
+<p>
+	<img alt="enquiry" src="assets/images/image_16.png" style="width: 100%;"></p>
+        
+        <hr>
+		
+		<h3 id="integrating_fcm"><strong>F) Integrating FCM</strong> - <a href="#toc">top</a></h3>
+		
+		<div class="accordion-heading" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51);">
+	<div>
+		<strong>1. Login Firebase Console</strong></div>
+	<div>
+		You might need to login into <a href="https://console.firebase.google.com/">Firebase Console</a> using with your gmail account.</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<div>
+			<strong>2. Create New Project</strong></div>
+		<div>
+			After login into Firebase Console, please crate new project</div>
+	</div>
+</div>
+<p>
+	&nbsp;<img alt="screen1" src="assets/images/image_27.png" style="width: 100%;"></p>
+<p>
+	<strong>2.1&nbsp;<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">Please choose &quot;Add Firebase to your Android App&quot;.</span></strong></p>
+<p>
+	<strong><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;"><img alt="screen2_1" src="assets/images/image_29.png" style="width: 100%;"></span></strong></p>
+<p>
+	<strong><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">2.3 Then Create Project</span></strong></p>
+<p>
+	<img alt="" src="assets/images/image_28.png" style="width: 100%;"></p>
+<p>
+	<br>
+	<strong><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;"><img alt="" src="assets/images/image_30.png" style="width: 100%;"></span></strong></p>
+<p>
+	<strong>3. Copy Config File</strong>&nbsp;<br>
+	<img alt="" src="assets/images/image_31.png" style="width: 100%;"></p>
+<p>
+	<strong>4. Take Web API Key</strong></p>
+<p>
+	<strong>4.1 You need to take Web API KEY. Please click &quot;Settings&quot;&nbsp;</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_32.png" style="width: 100%;"></strong></p>
+<p>
+	<strong>4.2 </strong>Please copy Web API Key&nbsp;</p>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>4.3</strong> Important Note : Please go to &quot;Cloud Messaging&quot; tab. If you see &quot;Server key (legacy token)&quot;, you need to use that key. Just ignore the key from Step 4.2&nbsp;</div>
+<p>
+	<strong><img alt="" src="assets/images/image_33.png" style="width: 100%;"></strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>5. Setup Server Key at&nbsp;&nbsp;</strong><strong>gcm_helper</strong><strong>.php</strong></p>
+<div>
+	You need to put that key at <strong>application/helpers/gcm_helper</strong>.<strong>php</strong>&nbsp;from backend.&nbsp;&nbsp;</div>
+<div>
+	&nbsp;</div>
+<p>
+	&nbsp;$api_key = &quot;------- your key -------&quot;;</p>
+        
+        <hr>
+		
+		<h3 id="special_thanks"><strong>G) Special Thanks</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">We wont to say special thanks to following componet developers and their owner which we have used to developer this app.</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">https://developer.android.com</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">www.paypal.com</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">https://www.codeigniter.com</span></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">https://www.google.co.in</span></p>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	<div>
+		&nbsp;com.nostra13.universalimageloader:universal-image-loader:1.9.5&#39;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;compile &#39;com.github.PhilJay:MPAndroidChart:v2.2.4&#39;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;compile &#39;com.google.android.gms:play-services:8.3.0&#39;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+    
+		<strong>We want to special thanks to&nbsp; google, android and android studio team to give us such platform to develope</strong>.</div>
+</div>
+<p>
+	&nbsp;</p>
+		
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Sanchit Rathi</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
